@@ -1,1 +1,13 @@
-
+services:
+  - type: web
+    name: telegram-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn bot:app
+    envVars:
+      - key: API_ID
+        value: 38532428
+      - key: API_HASH
+        value: bd13b721c96184649dbbce14de78147d
+      - key: PHONE_NUMBER
+        value: +966540049081

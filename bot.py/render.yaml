@@ -10,4 +10,4 @@ services:
       - key: API_HASH
         value: bd13b721c96184649dbbce14de78147d
       - key: PHONE_NUMBER
-        value: +966540049081
+        value: "+966540049081"

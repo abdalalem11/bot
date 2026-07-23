@@ -1,1 +1,10 @@
-
+python-telegram-bot==20.7
+requests==2.31.0
+flask==3.0.0
+sqlalchemy==2.0.23
+paramiko==3.4.0
+scapy==2.5.0
+colorama==0.4.6
+pycryptodome==3.19.0
+stem==1.8.2
+socks==1.0.1

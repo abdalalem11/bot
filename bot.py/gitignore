@@ -1,4 +1,0 @@
-*.session
-*.pyc
-__pycache__/
-.env
